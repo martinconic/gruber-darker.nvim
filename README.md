@@ -31,7 +31,7 @@ This plugin provides a **100% faithful port** of Tsoding's real Emacs look for N
 | `comment` | `#cc8c3c` | Brown comments (`italic`) |
 | `type` | `#95a99f` | Quartz types and constants |
 | `func` | `#96a6c8` | Niagara function and method names |
-| `number` | `#9e95c7` | Wisteria numbers |
+| `number` | `#95a99f` | Quartz numbers & constants (zero purple!) |
 | `error` | `#f43841` | Red errors and diagnostics |
 
 ---

@@ -110,8 +110,8 @@ function M.groups(p, opts)
     Structure      = { fg = p.type },
     Typedef        = { fg = p.type },
 
-    Special        = { fg = p.quartz },
-    SpecialChar    = { fg = p.number },
+    Special        = { fg = p.constant },
+    SpecialChar    = { fg = p.constant },
     Tag            = { fg = p.keyword },
     -- Punctuation & Delimiters: Tsoding's clean foreground (NEVER purple!)
     Delimiter      = { fg = p.delimiter },
@@ -150,9 +150,9 @@ function M.groups(p, opts)
     ["@method.call"]           = { fg = p.func },
 
     ["@string"]                = { link = "String" },
-    ["@string.regex"]          = { fg = p.number },
-    ["@string.escape"]         = { fg = p.number, bold = true },
-    ["@string.special"]        = { fg = p.number },
+    ["@string.regex"]          = { fg = p.constant },
+    ["@string.escape"]         = { fg = p.constant, bold = true },
+    ["@string.special"]        = { fg = p.constant },
 
     ["@character"]             = { link = "Character" },
     ["@character.special"]     = { link = "SpecialChar" },
